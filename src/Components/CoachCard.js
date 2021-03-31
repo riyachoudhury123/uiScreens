@@ -1,18 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-import { createMuiTheme, withStyles, ThemeProvider } from '@material-ui/core/styles';
-import { cyan, purple } from '@material-ui/core/colors';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { cyan } from '@material-ui/core/colors';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
-import InputBase from '@material-ui/core/InputBase';
-import IconButton from '@material-ui/core/IconButton';
-import SearchIcon from '@material-ui/icons/Search';
-import TextField from '@material-ui/core/TextField';
 const useStyles = makeStyles({
     
     root: {
@@ -48,7 +42,6 @@ export default function CoachCard({coach}) {
         },
     });
     const classes = useStyles();
-    const bull = <span className={classes.bullet}>•</span>;
 
     return (
         <div style={{marginLeft:80,marginRight:"20%",marginTop: 10}}>

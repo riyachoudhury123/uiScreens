@@ -2,22 +2,16 @@ import React from 'react';
 import CoachCard from '../Components/CoachCard.js';
 import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
-import TextField from '@material-ui/core/TextField';
 import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
-import { createMuiTheme, withStyles, ThemeProvider } from '@material-ui/core/styles';
-import { blue, purple } from '@material-ui/core/colors';
+import { createMuiTheme,  ThemeProvider } from '@material-ui/core/styles';
+import { blue} from '@material-ui/core/colors';
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import MenuIcon from '@material-ui/icons/Menu';
 import MessageIcon from '@material-ui/icons/Message';
-import AccountCircle from '@material-ui/icons/AccountCircle'
 import NotificationsOutlinedIcon from '@material-ui/icons/NotificationsOutlined';
 import InputBase from '@material-ui/core/InputBase';
-import { makeStyles } from '@material-ui/core/styles';
 
 export default function JobPage() {
     const theme = createMuiTheme({

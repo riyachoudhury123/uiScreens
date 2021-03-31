@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import JobPage from './Pages/JobPage.js';
 // import JobPage from './Pages/JobPage.js';
 import Home8 from './Pages/Home8.js';
